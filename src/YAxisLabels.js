@@ -122,7 +122,7 @@ class YAxisValueLabels extends React.Component {
     // nudge down the tickCount and try again
     // doing this will require communicating the updated ticks/tickCount back to the parent element...
 
-    const start = performance.now();
+    // const start = performance.now();
     const {labels} = resolveYLabelsForValues(scale, ticks, formats, style);
     // console.log('resolveYLabelsForValues took ', performance.now() - start);
     // console.log('found labels', labels);
